@@ -161,8 +161,8 @@ h6 {
 }
 
 .header .social-links a {
-  font-size: 16px;
-  display: flex;
+  font-size: 12px;
+  display: inline-flex;
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
