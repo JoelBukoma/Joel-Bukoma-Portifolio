@@ -275,7 +275,6 @@ h6 {
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
 }
 
-
 .navmenu a:hover,
 .navmenu .active,
 .navmenu .active:focus {
@@ -294,8 +293,6 @@ h6 {
   color: var(--contrast-color);
   transform: rotate(180deg);
 }
-
- 
 
 /*--------------------------------------------------------------
 # Global Footer
@@ -943,7 +940,7 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
-.button{
+.button {
   padding: 1rem 2rem;
   background-color: gray;
   border-radius: 2rem;
@@ -1053,74 +1050,6 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details Section
---------------------------------------------------------------*/
-.portfolio-details .portfolio-details-slider img {
-  width: 100%;
-}
-
-.portfolio-details .portfolio-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: color-mix(in srgb, var(--default-color), transparent 85%);
-  opacity: 1;
-}
-
-.portfolio-details
-  .portfolio-details-slider
-  .swiper-pagination
-  .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
-}
-
-.portfolio-details .portfolio-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
-}
-
-.portfolio-details .portfolio-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid
-    color-mix(in srgb, var(--default-color), transparent 85%);
-}
-
-.portfolio-details .portfolio-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.portfolio-details .portfolio-info ul li + li {
-  margin-top: 10px;
-}
-
-.portfolio-details .portfolio-description {
-  padding-top: 30px;
-}
-
-.portfolio-details .portfolio-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.portfolio-details .portfolio-description p {
-  padding: 0;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
-}
-
-/*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
 .service-details .services-list {
@@ -1184,6 +1113,40 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
+} /* Blur all services by default */
+.service-item {
+  filter: blur(3px);
+  opacity: 0.6;
+  position: relative;
+  pointer-events: none; /* prevent clicking blurred links */
+}
+
+/* Remove blur for available services */
+.service-item.available {
+  filter: none;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Coming Soon Label */
+.service-item::after {
+  content: "Coming Soon";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* Hide label for available */
+.service-item.available::after {
+  content: none;
 }
 
 /*--------------------------------------------------------------
