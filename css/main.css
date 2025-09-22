@@ -177,50 +177,50 @@ h6 {
 }
 
 /* WhatsApp */
-.bi bi-whatsapp {
+.bi-whatsapp {
   background: #25d366;
 }
-.bi bi-whatsapp:hover {
+.bi-whatsapp:hover {
   color: #20ba57;
 }
 
 /* Twitter (X) */
-.bi bi-twitter-x {
+.bi-twitter-x {
   color: #000000;
 }
-.bi bi-twitter-x:hover {
+.bi-twitter-x:hover {
   color: #111111;
 }
 
 /* TikTok */
-.bi bi-tiktok {
+.bi-tiktok {
   color: #010101;
 }
-.bi bi-tiktok:hover {
+.bi-tiktok:hover {
   color: #121212;
 }
 
 /* Facebook */
-.bi bi-facebook {
+.bi-facebook {
   color: #1877f2;
 }
-.bi bi-facebook:hover {
+.bi-facebook:hover {
   color: #145db8;
 }
 
 /* Instagram (gradient) */
-.bi bi-instagram {
+.bi-instagram {
   color: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
 }
-.bi bi-instagram:hover {
+.bi-instagram:hover {
   opacity: 0.9;
 }
 
 /* LinkedIn */
-.bi bi-linkedin {
+.bi-linkedin {
   color: #0a66c2;
 }
-.bi bi-linkedin:hover {
+.bi-linkedin:hover {
   color: #084d94;
 }
 
