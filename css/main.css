@@ -176,6 +176,54 @@ h6 {
   transition: 0.3s;
 }
 
+/* WhatsApp */
+.bi bi-whatsapp {
+  background: #25d366;
+}
+.bi bi-whatsapp:hover {
+  color: #20ba57;
+}
+
+/* Twitter (X) */
+.bi bi-twitter-x {
+  color: #000000;
+}
+.bi bi-twitter-x:hover {
+  color: #111111;
+}
+
+/* TikTok */
+.bi bi-tiktok {
+  color: #010101;
+}
+.bi bi-tiktok:hover {
+  color: #121212;
+}
+
+/* Facebook */
+.bi bi-facebook {
+  color: #1877f2;
+}
+.bi bi-facebook:hover {
+  color: #145db8;
+}
+
+/* Instagram (gradient) */
+.bi bi-instagram {
+  color: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+.bi bi-instagram:hover {
+  opacity: 0.9;
+}
+
+/* LinkedIn */
+.bi bi-linkedin {
+  color: #0a66c2;
+}
+.bi bi-linkedin:hover {
+  color: #084d94;
+}
+
 .header .social-links a:hover {
   color: var(--contrast-color);
   background: var(--accent-color);
