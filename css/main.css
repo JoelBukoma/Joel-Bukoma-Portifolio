@@ -123,8 +123,8 @@ h6 {
   top: 0;
   left: 0;
   bottom: 0;
-  padding: 0 15px;
-  width: 320px;
+  padding: 0 10px;
+  width: 300px;
   transition: all ease-in-out 0.3s;
   overflow-y: auto;
   z-index: 997;
@@ -259,22 +259,6 @@ h6 {
   margin-right: 10px;
 }
 
-.navmenu a .toggle-dropdown,
-.navmenu a:focus .toggle-dropdown {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: auto;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: 0.3s;
-  flex-shrink: 0;
-  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
-}
-
 .navmenu a:hover,
 .navmenu .active,
 .navmenu .active:focus {
@@ -285,13 +269,6 @@ h6 {
 .navmenu .active .navicon,
 .navmenu .active:focus .navicon {
   color: var(--accent-color);
-}
-
-.navmenu .active .toggle-dropdown,
-.navmenu .active:focus .toggle-dropdown {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
-  transform: rotate(180deg);
 }
 
 /*--------------------------------------------------------------
@@ -780,14 +757,7 @@ section,
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--accent-color);
 }
-.button {
-  padding: 1rem 2rem;
-  background-color: gray;
-  border-radius: 2rem;
-  border: 1px solid black;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
+
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
