@@ -1049,9 +1049,6 @@ section,
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
-/*--------------------------------------------------------------
-# Service Details Section
---------------------------------------------------------------*/
 .service-details .services-list {
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
@@ -1113,40 +1110,6 @@ section,
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
-} /* Blur all services by default */
-.service-item {
-  filter: blur(3px);
-  opacity: 0.6;
-  position: relative;
-  pointer-events: none; /* prevent clicking blurred links */
-}
-
-/* Remove blur for available services */
-.service-item.available {
-  filter: none;
-  opacity: 1;
-  pointer-events: auto;
-}
-
-/* Coming Soon Label */
-.service-item::after {
-  content: "Coming Soon";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.7);
-  color: #fff;
-  padding: 5px 15px;
-  border-radius: 5px;
-  font-size: 0.9rem;
-  font-weight: bold;
-  opacity: 1;
-}
-
-/* Hide label for available */
-.service-item.available::after {
-  content: none;
 }
 
 /*--------------------------------------------------------------
