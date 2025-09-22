@@ -224,11 +224,6 @@ h6 {
   color: #084d94;
 }
 
-.header .social-links a:hover {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-}
-
 @media (min-width: 1200px) {
   .header ~ main,
   .header ~ #footer {
