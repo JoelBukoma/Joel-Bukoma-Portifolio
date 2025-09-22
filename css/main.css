@@ -178,7 +178,6 @@ h6 {
 
 /* WhatsApp */
 .bi-whatsapp {
-  background-color: white;
   color: #25d366;
 }
 .bi-whatsapp:hover {
@@ -187,7 +186,6 @@ h6 {
 
 /* Twitter (X) */
 .bi-twitter-x {
-  background-color: white;
   color: #000000;
 }
 .bi-twitter-x:hover {
@@ -196,7 +194,6 @@ h6 {
 
 /* TikTok */
 .bi-tiktok {
-  background-color: white;
   color: #010101;
 }
 .bi-tiktok:hover {
@@ -205,7 +202,6 @@ h6 {
 
 /* Facebook */
 .bi-facebook {
-  background-color: white;
   color: #1877f2;
 }
 .bi-facebook:hover {
@@ -214,7 +210,6 @@ h6 {
 
 /* Instagram (gradient) */
 .bi-instagram {
-  background-color: white;
   color: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
 }
 .bi-instagram:hover {
@@ -223,7 +218,6 @@ h6 {
 
 /* LinkedIn */
 .bi-linkedin {
-  background-color: white;
   color: #0a66c2;
 }
 .bi-linkedin:hover {
